@@ -19,7 +19,7 @@ jobs:
         uses: actions/setup-node@v3
 
       - name: Set CLI Config
-        run: jf npm-config --global=true --repo-resolve=sai-test --repo-deploy=sai-test
+        run: jf npm-config --global=true --repo-resolve=sai-npm --repo-deploy=sai-npm
 
       - name: Install Deps
         run: jf npm install
